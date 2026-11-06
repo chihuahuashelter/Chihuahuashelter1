@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Meet the Chihuahua family at Chihuahua Shelters. View puppy photos and contact us on Facebook.">
+<title>Chihuahua Shelters | Little Paws, Big Love</title>
+<style>
+:root{--ink:#33251f;--muted:#6f625c;--cream:#fff9f3;--rose:#b95f63;--line:#f0dfd5}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+a{color:inherit} .top{padding:16px 5%;display:flex;justify-content:space-between;align-items:center;gap:12px;background:#fff;border-bottom:1px solid var(--line)}
+.brand{font-weight:800} .top a{text-decoration:none;font-weight:700;color:var(--rose)}
+.hero{padding:68px 6%;text-align:center;background:linear-gradient(135deg,#f9e8df,#fff7ef)}
+.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:.78rem;color:var(--rose);font-weight:800}
+h1{font-size:clamp(2.2rem,6vw,4rem);line-height:1.08;max-width:850px;margin:14px auto}
+.hero p{max-width:660px;margin:0 auto 26px;color:var(--muted);font-size:1.1rem}
+.btn{display:inline-block;padding:14px 23px;border-radius:999px;text-decoration:none;font-weight:800;background:var(--rose);color:white;box-shadow:0 7px 18px #b95f6330}
+.btn:hover{filter:brightness(.95)} main{max-width:1100px;margin:auto;padding:48px 5%}
+h2{font-size:clamp(1.7rem,4vw,2.4rem);margin:0 0 10px;text-align:center}
+.intro{text-align:center;color:var(--muted);max-width:720px;margin:0 auto 30px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.gallery img{width:100%;height:340px;object-fit:cover;border-radius:18px;background:#f1e3d9}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:42px}
+.feature{background:white;padding:22px;border-radius:16px;border:1px solid var(--line)}
+.feature h3{margin:0 0 7px} .feature p{color:var(--muted);margin:0}
+.contact{text-align:center;background:#fff;border:1px solid var(--line);border-radius:22px;padding:38px 20px;margin-top:44px}
+.contact p{color:var(--muted);max-width:600px;margin:8px auto 22px}
+footer{text-align:center;padding:25px;color:var(--muted);font-size:.9rem}
+@media(max-width:720px){.gallery,.features{grid-template-columns:1fr}.gallery img{height:auto;max-height:520px;object-fit:cover}.hero{padding:54px 6%}}
+</style>
+</head>
+<body>
+<header class="top"><div class="brand">🐾 Chihuahua Shelters</div><a href="https://www.facebook.com/share/1BEWA4swEo/?mibextid=wwXIfr" target="_blank" rel="noopener">Visit our Facebook</a></header>
+<section class="hero">
+<div class="eyebrow">Little paws • Big love</div>
+<h1>Meet our lovely Chihuahua family</h1>
+<p>Take a look at our Chihuahua photos. Have questions about a puppy? Contact us on Facebook to ask about current availability, personalities, care and veterinary records.</p>
+<a class="btn" href="https://www.facebook.com/share/1BEWA4swEo/?mibextid=wwXIfr" target="_blank" rel="noopener">Message us on Facebook</a>
+</section>
+<main>
+<section>
+<h2>Our Chihuahua photos</h2>
+<p class="intro">Every puppy deserves a caring, prepared home. Please message us for accurate details about any puppy you are interested in.</p>
+<div class="gallery">
+<img src="images/white-chihuahua-puppies.jpeg" alt="Four white Chihuahua puppies being held gently">
+<img src="images/chihuahua-family-photo.jpeg" alt="A group of Chihuahua family dogs together">
+<img src="images/chihuahua-puppies-bed.jpeg" alt="Chihuahua puppies relaxing together in a soft bed">
+</div>
+</section>
+<section class="features">
+<article class="feature"><h3>💕 Loving care</h3><p>Ask us about each puppy’s routine, socialization and individual temperament.</p></article>
+<article class="feature"><h3>🩺 Health information</h3><p>We welcome questions about age, veterinary checks and vaccination records.</p></article>
+<article class="feature"><h3>🏡 Finding the right home</h3><p>We appreciate thoughtful inquiries from people ready to offer a safe, loving home.</p></article>
+</section>
+<section class="contact">
+<h2>Interested in learning more?</h2>
+<p>Send us a message through our Facebook page. We’ll be happy to answer your questions and share further information.</p>
+<a class="btn" href="https://www.facebook.com/share/1BEWA4swEo/?mibextid=wwXIfr" target="_blank" rel="noopener">Chat with us on Facebook</a>
+</section>
+</main>
+<footer>© <span id="year"></span> Chihuahua Shelters • Little paws, big love</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
